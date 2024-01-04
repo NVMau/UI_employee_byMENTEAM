@@ -1,0 +1,39 @@
+
+button:hover {
+    background-color: #049afe;
+}
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+button {
+    padding: 10px;
+    background-color: #2da9fc;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+.margin-l-20{
+    margin-left: 20px;
+}
+
+.width-100{
+    width: 100%;
+}
+.width-90-mg-auto{
+    width: 90%;
+    margin: auto;
+}
+
+.font-lb-18{
+    font-size: 18px;
+}
+select:focus{
+    outline: none;
+
+}
+input:focus{
+    outline: none;
+}
