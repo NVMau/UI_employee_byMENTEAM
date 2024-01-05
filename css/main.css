@@ -450,3 +450,119 @@ body:focus{
 }
 
 
+/* VÉ    */
+
+.label-ticket{
+    width: 80%;
+    max-width: 850px;
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    background-color: #cce2f6;
+    border-radius: 20px 20px 0px 0px;
+    padding: 5px 10px 0px 10px;
+
+}
+.label-ou{
+    position: relative;
+    width: 148px;
+}
+.label-ou-logo{
+    position: absolute;
+    height: 40px;
+    width: auto;
+    top:1px
+}
+.label-ou-name{
+    color: #03385d;
+    right: 0px;
+    position: absolute;
+    top: 10px;
+    width: 110px;
+    font-weight: bold;
+}
+.label-type-ticket{
+    color: #01416e;
+    line-height: 40px;
+    margin: auto;
+    
+}
+
+
+/* INFOR TICKET */
+.info-ticket {
+    width: 80%;
+    max-width: 850px;
+    height: auto;
+    background-color: #fcfcfc;
+    padding: 5px 10px 0px 10px;
+    display: flex;
+}
+.ticket-detail{
+    flex: 1;
+}
+.ticket-detail-info-title{
+    color: #666565;
+    font-size:10px;
+    margin-bottom: 5px;
+}
+.ticket-detail-info-1{
+    display: flex;
+    flex-direction: column;
+    margin: 15px 20px 15px 20px ;
+
+}
+.ticket-detail-info-qr{
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    border: 1px solid var(--border-color);
+    margin: auto;
+}
+.ticket-detail-info-qr{
+    display: flex;
+    margin: 0px 6px 0px 20px;
+}
+.ticket-detail-info-qr-lb{
+    margin: 20px 20px 20px 0px;
+}
+.border-left-dashed {
+    border-left: 1px dashed black; /* Đặt viền trái là gạch đứt màu đen với độ dày 2px */
+}
+/* footer ticket */
+.footer-ticket{
+    width: 80%;
+    max-width: 850px;
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+    background-color: #cce2f6;
+    border-radius:  0px 0px 20px 20px;
+    padding: 5px 10px 0px 10px;
+}
+.footer-ou{
+    position: relative;
+    width: 148px;
+}
+.footer-ou-logo{
+    position: absolute;
+    height: 30px;
+    width: auto;
+    top:1px
+}
+.footer-ou-name{
+    color: #03385d;
+    right: 8px;
+    position: absolute;
+    top: 7px;
+    width: 110px;
+    font-weight: bold;
+    font-size: 13px;
+}
+.footer-type-ticket{
+    color: #01416e;
+    line-height: 30px;
+    margin: auto;
+    
+}
+
